@@ -18,8 +18,8 @@ Star⭐ the repo if you like what you see😉.
 
 
 
-|<img src="lib/screenshots/flutter_02.png" width="400">|<img src="lib/screenshots/flutter_03.png" width="400">
-|<img src="lib/screenshots/flutter_04.png" width="400">|<img src="lib/screenshots/flutter_05.png" width="400">
+|<img src="lib/screenshots/flutter_02.png" width="400">|<img src="lib/screenshots/flutter_03.png" width="400">|
+|<img src="lib/screenshots/flutter_04.png" width="400">|<img src="lib/screenshots/flutter_05.png" width="400">|
 
 
 
