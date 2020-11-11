@@ -14,14 +14,8 @@ Star⭐ the repo if you like what you see😉.
 
 
 ## 📸 ScreenShots
-
-<img src="lib/screenshots/flutter_01.png"/>
-
-
-
-
-|<img src="lib/screenshots/flutter_02.png" width="400">|<img src="lib/screenshots/flutter_03.png" width="400">|
-|<img src="lib/screenshots/flutter_04.png" width="400">|<img src="lib/screenshots/flutter_05.png" width="400">|
+<img src="lib/screenshots/0.jpg" width="400"><img src="lib/screenshots/1.jpg" width="400">
+<img src="lib/screenshots/2.jpg" width="400"><img src="lib/screenshots/3.jpg" width="400">
 
 
 
