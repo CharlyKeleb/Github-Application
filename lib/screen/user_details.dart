@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
 import 'package:github_app/providers/user_provider.dart';
 import 'package:github_app/screen/repo.dart';
 import 'package:provider/provider.dart';
@@ -18,7 +19,6 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
 
   @override
   void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
     super.didChangeDependencies();
     if (_init) {
       setState(() {
@@ -37,10 +37,12 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
     final user = Provider.of<UserProvider>(context);
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
+        backgroundColor:Colors.black,
         elevation: 0,
         actions: <Widget>[
           Padding(
@@ -142,7 +144,7 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
                                 padding: const EdgeInsets.only(
                                     left: 10.0, right: 10.0),
                                 child: ListTile(
-                                  leading: Icon(Icons.person_outline,
+                                  leading: Icon(Feather.users,
                                       color: Colors.amber),
                                   title: Text(
                                     'Followers',
@@ -172,7 +174,7 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
                                   },
                                   child: ListTile(
                                     leading:
-                                        Icon(Icons.book, color: Colors.amber),
+                                        Icon(Feather.book, color: Colors.amber),
                                     title: Text(
                                       'Public Repo',
                                       style: TextStyle(
